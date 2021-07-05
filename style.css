@@ -1,0 +1,13 @@
+
+body{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.red-color{
+    color: orangered;
+}
+h1{
+    font-size: 50px;
+}
+.font-style:hover{
+    color: palegreen;
+}
