@@ -1,13 +1,20 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.color {
+  color: orangered;
+}
 
-body{
-    font-family: 'Zen Tokyo Zoo', cursive;
+.container {
+  display: flex;
 }
-.red-color{
-    color: orangered;
+.half-width {
+  width: 50%;
+  padding-left: 8%;
 }
-h1{
-    font-size: 50px;
-}
-.font-style:hover{
-    color: palegreen;
+
+.half-width img {
+  width: 80%;
 }
