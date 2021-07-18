@@ -4,12 +4,14 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+section {
+  display: flex;
+}
 .color {
   color: orangered;
 }
 
-.container {
-  display: flex;
+.top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -21,10 +23,10 @@ body {
 .half-width h1 {
   font-size: 42px;
 }
-
 .half-width img {
-  width: 80%;
+  width: 85%;
 }
+
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(to left, #ffa500, #ff6347);
@@ -32,4 +34,11 @@ body {
   border-radius: 10px;
   color: #ffffff;
   font-weight: 600;
+}
+
+.big-dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 5%;
 }
